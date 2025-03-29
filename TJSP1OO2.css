@@ -1,0 +1,35 @@
+body{
+    background: linear-gradient( to right, rgb(54, 0, 0), rgb(108, 0, 0));
+    text-align: center;
+    font: normal 20px system-ui;
+    color: rgb(54, 0, 0);
+}
+
+#block{
+    padding: 10px;
+    background:white;
+    border-radius: 50px;
+    font: 10px;
+    width: 500px;
+    margin: 90px auto;
+}
+#benter{
+    padding: 30px;
+    background: white;
+    width: 250px;
+    color: rgb(108, 0, 0);
+    margin: auto;
+    border-radius: 50px;
+    
+}
+
+#nomedu, #senhadu{
+    padding: 10px;
+    border-radius: 20px;
+    width: 300px;
+    background: linear-gradient( to right, rgb(54, 0, 0), rgb(108, 0, 0));
+    color: white;
+}
+
+
+   
