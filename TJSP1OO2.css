@@ -11,7 +11,7 @@ body{
     border-radius: 50px;
     font: 10px;
     width: 500px;
-    margin: 90px auto;
+    margin: 70px auto;
 }
 #benter{
     padding: 30px;
@@ -20,7 +20,19 @@ body{
     color: rgb(108, 0, 0);
     margin: auto;
     border-radius: 50px;
-    
+    cursor: pointer;
+}
+
+#benter:hover{
+    background: linear-gradient( to right, rgb(54, 0, 0), rgb(108, 0, 0));
+    color: white;
+    transition: 2s
+}
+
+#benter:not(:hover){
+    background: white;
+    color: rgb(54, 0, 0);
+    transition: 2s;
 }
 
 #nomedu, #senhadu{
@@ -31,5 +43,22 @@ body{
     color: white;
 }
 
+#nomedu:hover{
+    padding: 20px;
+    transition: 0.5s;
+}
 
-   
+#nomedu:not(:hover){
+    padding: 10px;
+    transition: 0.5s
+}
+
+#senhadu:hover{
+    padding: 20px;
+    transition: 0.5s;
+}
+
+#senhadu:not(:hover){
+    padding: 10px;
+    transition: 0.5s
+}
